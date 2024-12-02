@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-let data = fs.readFileSync("input.txt", { encoding: "utf8" });
+let data = fs.readFileSync("./input.txt", { encoding: "utf8" });
 
 data = data.split("\n");
 let total = 0;
